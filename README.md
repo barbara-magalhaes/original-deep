@@ -17,20 +17,7 @@ This service aims to describe the following items:
 
 ## Prerequisite
 
-Start at [link confluence](adicionar)
-
-Install `build-essential` [tutorial](https://linuxhint.com/install-build-essential-ubuntu/)
-
-Install `cmake` [tutorial](https://linuxhint.com/install-cmake-on-ubuntu)
-
-Install `yarn` [tutorial](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/)
-
-Install `nodejs` [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt)
-
-Install `docker` [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt)
-
-Install `docker-compose` [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt)
-
+Start at [Confluence](https://pelandobr.atlassian.net/l/c/wXKFtYce)
 
 ## Usage
 
@@ -46,13 +33,13 @@ cd deep-log-service
 3. Build and start the application:
 
 ```bash
-sudo make up
+  sudo make up
 ```
 
 or (detached)
 
 ```bash
-make up-silent
+  sudo make up-silent
 ```
 
 4. After the startup is complete, open a browser and visit [http://localhost/status](http://localhost/status).
@@ -61,7 +48,7 @@ make up-silent
 
 ```bash
 
-make db-reset
+  sudo make db-reset
 
 ```
 
