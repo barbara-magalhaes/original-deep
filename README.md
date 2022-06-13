@@ -33,13 +33,13 @@ cd deep-log-service
 3. Build and start the application:
 
 ```bash
-  sudo make up
+  make up
 ```
 
 or (detached)
 
 ```bash
-  sudo make up-silent
+  make up-silent
 ```
 
 4. After the startup is complete, open a browser and visit [http://localhost/status](http://localhost/status).
@@ -48,7 +48,7 @@ or (detached)
 
 ```bash
 
-  sudo make db-reset
+  make db-reset
 
 ```
 
